@@ -23,14 +23,23 @@ The system allows adding, editing, deleting, toggling, and listing tasks, each w
 
 ```bash
 .
-├── --clipboard
-├── main.py
-├── manager.py
+├── app
+│   ├── __init__.py
+│   ├── api
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   ├── core
+│   │   ├── manager.py
+│   │   └── task.py
+│   ├── main.py
+│   └── models
+│       └── utils.py
+├── frontend
 ├── README.md
-├── task.py
-├── tests
-├── tree_structure.txt
-└── utils.py
+└── tests
+
+7 directories, 9 files
+
 ```
 
 ---
