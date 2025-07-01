@@ -1,8 +1,8 @@
 # CLI Entry point
 
-from manager import TaskManager
-from task import Task
-from utils import TaskInput
+from app.core.manager import TaskManager
+from app.core.task import Task
+from app.models.utils import TaskInput
 
 manager = TaskManager()
 

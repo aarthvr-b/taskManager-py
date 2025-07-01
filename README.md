@@ -21,11 +21,17 @@ The system allows adding, editing, deleting, toggling, and listing tasks, each w
 
 ## Current Project Structure
 
-├── manager.py # TaskManager: handles task operations
-├── task.py # Task: represents a single task entity
-├── utils.py # Shared types (e.g., TaskInput dataclass)
-├── main.py # Entry point for testing / CLI
-└── README.md
+```bash
+.
+├── --clipboard
+├── main.py
+├── manager.py
+├── README.md
+├── task.py
+├── tests
+├── tree_structure.txt
+└── utils.py
+```
 
 ---
 

@@ -1,6 +1,6 @@
 # Define Task class
 
-from utils import TaskInput
+from app.models.utils import TaskInput
 
 
 class InvalidTaskDataError(Exception):

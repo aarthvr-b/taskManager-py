@@ -2,8 +2,8 @@
 
 from typing import Optional
 
-from task import Task
-from utils import TaskInput
+from app.core.task import Task
+from app.models.utils import TaskInput
 
 
 class TaskManager:
